@@ -1,0 +1,31 @@
+html {
+  overflow-x: auto!important;
+  overflow-y: auto!important;
+}
+
+.navbar {
+  background-color: #f2f5f7;
+  color: #333;
+  -webkit-box-shadow: 3px 3px 3px 3px #ccc;  
+  box-shadow:         3px 3px 3px 3px #ccc; 
+}
+
+.navbar .navbar-item{
+  background-color: #e9f2f8;
+  color: #333;
+}
+.navbar .navbar-item:hover{
+  background-color: #cfe1ee;
+  color: #333;
+}
+.app-theme {
+  .title.titled {
+    color: #4aa0dd !important;
+  }
+  .button.is-primary {
+    background-color: #4aa0dd;
+  }
+  .select select {
+    border-color: #4aa0dd;
+  }
+}
